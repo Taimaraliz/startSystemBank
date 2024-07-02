@@ -12,7 +12,8 @@ O projeto tem como objetivo criar uma API de micro serviço de uma agencia banca
 ### 🛠️ Construido com:
  * Java 17
  * spring Boot
-
+ * Mavem
+ * Postgress
 
 
 
@@ -24,7 +25,7 @@ O projeto tem como objetivo criar uma API de micro serviço de uma agencia banca
 ⌨️  Rotas 
 
 
-|Método           |URL	       | Ações                                 |
+|Método           |URL	                   | Ações                                
 |-----------------|---------------------------------------------------------------------|
 | POST            |  /clientes/cadastrar	 | Cadastra um novo cliente                   |
 | POST            | /clientes/login        | Realiza login de um cliente.               |
@@ -32,7 +33,7 @@ O projeto tem como objetivo criar uma API de micro serviço de uma agencia banca
 | GET             | /clientes/{id}/saldo   | Consulta o saldo de um cliente específico. |
 | GET             | /clientes              | Lista todos os clientes.                   |
 | PUT             | /clientes/{id}         | Atualiza os dados de um cliente específico.|
------------------------------------------------------------------------------------------
+
 
 
 ⌨️  Endpoints                       
